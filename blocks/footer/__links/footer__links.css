@@ -1,0 +1,30 @@
+.footer__links { 
+    display: inherit;
+    padding: inherit;
+list-style-type: none;
+justify-content: space-between;
+
+    
+}
+
+@media screen and (max-width: 576px) {
+    .footer__links {
+
+justify-content: center;  
+        
+    }
+}
+
+@media screen and (max-width: 495px) {
+    .footer__links {
+
+justify-content: flex-start;  
+        
+    }
+}
+
+@media screen and (max-width: 495px) {
+    .footer__links {
+        flex-direction: column;
+    }
+}

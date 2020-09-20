@@ -1,0 +1,19 @@
+.place__text {
+    max-width: 484px;
+    
+    grid-area: text;
+}
+
+
+@media screen and (max-width: 620px) {
+    .place__text {
+        margin: auto;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .place__text {
+        text-align: left;
+    }
+}

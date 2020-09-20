@@ -1,0 +1,21 @@
+.comments__quote {
+    margin: 42px auto 24px auto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    order: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (max-width: 768px) {
+    .comments__quote {
+       text-align: left;
+       order: 2;
+       margin: 24px auto 48px auto;
+       font-size: 1rem;
+
+    }
+}
+

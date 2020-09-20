@@ -1,0 +1,16 @@
+.video__container {
+    display: flex;
+    margin: 70px auto 0 auto;
+    max-width: 1184px;
+    width: 94%;
+    
+}
+
+@media screen and (max-width: 767px) {
+    .video__container {
+        
+    display: block;
+    width: 94%;
+    margin: 24px auto 0 auto;
+    }
+}

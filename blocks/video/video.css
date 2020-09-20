@@ -1,0 +1,13 @@
+@import url('__container/video__container.css');
+@import url('__duration/video__duration.css');
+@import url('__icon/video__icon.css');
+@import url('__image/video__image.css');
+@import url('__item-description/video__item-description.css');
+@import url('__link/video__link.css');
+@import url('__subtitle/video__subtitle.css');
+@import url('__title/video__title.css');
+
+.video {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    
+}

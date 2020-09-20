@@ -1,0 +1,11 @@
+
+.intro__digits {
+    margin-top: 24px;
+    color: white;
+}
+
+@media screen and (max-width: 720px) {
+    .intro__digits {
+    margin-top: 32px;
+}
+}

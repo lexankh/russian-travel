@@ -1,0 +1,10 @@
+.content-title_place_comments {
+    margin: 102px auto 0 auto;
+}
+
+
+@media screen and (max-width: 375px) {
+    .content-title_place_comments {
+        margin: 64px auto 0 auto;
+    }
+}

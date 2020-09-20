@@ -1,0 +1,55 @@
+.video__link {
+    text-decoration: none;
+    display: block;
+}
+
+.video__link {
+    max-width: 583px;
+    max-height: 323px;
+    position: relative;
+    margin: 0 16px 0 auto;
+    
+}
+
+
+.video__link:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: black;
+    opacity: 0.2;
+    z-index: 1;
+}
+
+.video__link:hover:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: black;
+    opacity: 0.8;
+    z-index: 1;
+    transition: opacity 0.4s ease;
+    
+
+}
+@media screen and (min-width: 768px) {
+    .video__link:nth-child(2) {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .video__link {
+        
+        margin: 0 auto 8px auto;
+       
+        
+    }
+}
+

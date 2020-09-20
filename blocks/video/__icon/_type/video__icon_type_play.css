@@ -1,0 +1,16 @@
+.video__icon_type_play {
+    margin: 1.875rem auto auto 0;
+}
+
+@media screen and (max-width: 768px) {
+    .video__icon_type_play {
+        margin: 1.5rem auto auto 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .video__icon_type_play {
+        margin: 1rem auto auto 0;
+    }
+}
+

@@ -1,0 +1,34 @@
+
+@import url('_place/_comments/content-title_place_comments.css');
+@import url('_place/_video/content-title_place_video.css');
+
+.content-title {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    max-width: 800px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 78px;
+    text-align: center;
+    color: #FFFFFF;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+@media screen and (max-width: 768px) {
+    .content-title {
+        width: 80%;
+        font-size: 2.625rem;
+        line-height: 2.875rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .content-title {
+        width: 98%;
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+}
+

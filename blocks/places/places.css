@@ -1,0 +1,14 @@
+
+.places {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    
+    max-width: 984px;
+    width: 94%;
+   
+}
+
+@media screen and (max-width: 375px) {
+    .places {
+        width: 100%;
+    }
+}

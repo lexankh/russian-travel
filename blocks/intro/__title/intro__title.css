@@ -1,0 +1,20 @@
+.intro__title {
+    
+    margin: 80px 0 48px 0;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3.375rem;
+    line-height: 3.7rem;
+    color: #FFFFFF;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (max-width: 720px) {
+    .intro__title {
+        margin: 64px 0 32px 0;
+        font-size: 2rem;
+        line-height: 2rem;
+
+    }
+}

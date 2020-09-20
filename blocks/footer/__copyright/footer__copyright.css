@@ -1,0 +1,53 @@
+.footer__copyright {
+    align-self: flex-end;
+    max-width: 282px;
+    font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+text-align: right;
+
+color: #FFFFFF;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+
+}
+
+
+@media screen and (max-width: 775px) {
+    .footer__copyright {
+
+        width: 15%;
+       
+        
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .footer__copyright {
+
+       width: 100%;
+       text-align: center;
+        
+    }
+}
+
+@media screen and (max-width: 495px) {
+    .footer__copyright {
+
+       align-self: flex-start;
+       text-align: left;
+        
+    }
+}
+
+
+
+@media screen and (max-width: 375px) {
+    .footer__copyright {
+        text-align: left;
+        align-self: baseline;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}

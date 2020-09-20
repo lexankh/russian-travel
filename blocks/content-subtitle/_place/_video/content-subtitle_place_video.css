@@ -1,0 +1,11 @@
+.content-subtitle_place_video {
+margin: 24px auto 0 auto;
+
+}
+
+@media screen and (max-width: 375px) {
+
+.content-subtitle_place_video {
+    margin: 16px auto 0 auto;
+}
+}

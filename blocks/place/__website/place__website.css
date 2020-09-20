@@ -1,0 +1,14 @@
+
+.place__website {
+    
+    align-self: end;
+    grid-area: website;
+    color: grey;
+}
+
+
+@media screen and (max-width: 620px) {
+    .place__website {
+        display: none;
+    }
+}

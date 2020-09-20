@@ -1,0 +1,19 @@
+.comments__author {
+    
+    font-style: normal;
+    font-weight: 900;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    order: 2;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
+}
+
+@media screen and (max-width: 768px) {
+    .comments__author {
+       text-align: center;
+       order: 1;
+       margin-top: 16px;
+    }
+}

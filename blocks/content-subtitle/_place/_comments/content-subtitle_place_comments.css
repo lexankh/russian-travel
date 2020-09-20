@@ -1,0 +1,9 @@
+.content-subtitle_place_comments {
+margin: 24px auto 0 auto;
+}
+
+@media screen and (max-width: 375px) {
+    .content-subtitle_place_comments {
+        margin: 16px auto 0 auto;
+    }
+}

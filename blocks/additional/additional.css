@@ -1,0 +1,11 @@
+@import url('__container/additional_container.css');
+@import url('__description/additional__description.css');
+@import url('__heading/additional__heading.css');
+@import url('__image/additional__image.css');
+@import url('__item/additional__item.css');
+@import url('__text/additional__text.css');
+
+.additional {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    
+}

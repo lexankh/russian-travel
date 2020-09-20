@@ -1,0 +1,18 @@
+@import url('__barentsburg/page__barentsburg.css');
+@import url('__cover/page__cover.css');
+@import url('__comments/page__comments.css');
+@import url('__emblem/page__emblem.css');
+@import url('__footer/page__footer.css');
+@import url('__header/page__header.css');
+@import url('__intro/page__intro.css');
+@import url('__lead/page__lead.css');
+@import url('__photo-grid/page__photo-grid.css');
+@import url('__place/page__place.css');
+@import url('__places/page__places.css');
+
+.page {
+    min-width: 320px;
+    max-width: 1280px;
+    margin: auto;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+}

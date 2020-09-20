@@ -1,0 +1,17 @@
+@import url('__about/intro__about.css');
+@import url('__bold/intro__bold.css');
+@import url('__data/intro__data.css');
+@import url('__number/intro__number.css');
+@import url('__object/intro__object.css');
+@import url('__content-row/intro__content-row.css');
+@import url('__digits/intro__digits.css');
+@import url('__text/intro__text.css');
+@import url('__title/intro__title.css');
+
+.intro {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    max-width: 984px;
+    width: 94%;
+    
+}
+
